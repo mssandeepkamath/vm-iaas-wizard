@@ -75,9 +75,11 @@ Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically [QEMU](https://
                |   (e.g., QEMU)   |
                +------------------+
 
-The "User's CLI" represents the command-line interface that users interact with to manage virtual machines.
-The "Backend Server (Gorilla Mux)" is the server component that handles incoming requests from the CLI and communicates with the Type-2 Hypervisor.
-The "Type-2 Hypervisor (e.g., QEMU)" is responsible for creating, managing, and executing virtual machines.
+- The "User's CLI" represents the command-line interface that users interact with to manage virtual machines.
+
+- The "Backend Server (Gorilla Mux)" is the server component that handles incoming requests from the CLI and communicates with the Type-2 Hypervisor.
+
+- The "Type-2 Hypervisor (e.g., QEMU)" is responsible for creating, managing, and executing virtual machines.
 
 ## Contributing
 
