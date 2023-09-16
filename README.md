@@ -21,7 +21,7 @@ Minimal-IaaS-Manager is a versatile IaaS solution, written in Go, that caters to
 
 ## Key Features
 
-### 1. CLI Client
+### CLI Client
 
 The heart of Minimal-IaaS-Manager is its powerful CLI client, built with Go, which simplifies virtual machine management, making it accessible to both novice and experienced users. With the CLI, you can:
 
@@ -34,7 +34,7 @@ The heart of Minimal-IaaS-Manager is its powerful CLI client, built with Go, whi
 
 The command-line interface (CLI) of Minimal-IaaS-Manager is developed using [Cobra](https://github.com/spf13/cobra), a popular library for building command-line applications in Go. Cobra provides a robust framework for creating intuitive and feature-rich CLI commands, making it easier for users to interact with virtual machines.
 
-### 2. Backend Server
+### Backend Server
 
 The CLI client communicates with a robust back-end server, developed in Go, that handles the heavy lifting of managing virtual machines. The back-end server:
 
@@ -44,7 +44,7 @@ The CLI client communicates with a robust back-end server, developed in Go, that
 
 The backend server of Minimal-IaaS-Manager is built using [Gorilla Mux](https://github.com/gorilla/mux), a powerful router and dispatcher for building RESTful APIs in Go. Gorilla Mux enhances the capabilities of our backend, enabling seamless communication between the CLI client and the server.
 
-### 3. Type-2 Hypervisor Integration
+### Type-2 Hypervisor Integration
 
 Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically QEMU, to efficiently execute virtual machines. QEMU is a powerful open-source emulator and virtualization tool that provides:
 
@@ -104,4 +104,4 @@ This Go-based project is licensed under the MIT License - see the [LICENSE](LICE
 
 ## Contact
 
-[Email Id](msandeepcip@gmail.com)
+Contact me through [Email](msandeepcip@gmail.com)
