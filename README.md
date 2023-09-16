@@ -1,4 +1,4 @@
-# Minimal-IaaS-Manager (Go-based)
+# Minimal-IaaS-Manager
 
 Minimal-IaaS-Manager is a versatile Infrastructure as a Service (IaaS) platform, built using Go (Golang), designed to empower users to create, manage, and interact with virtual machines across different platforms. This platform provides a command-line interface (CLI) for streamlined virtual machine management.
 
