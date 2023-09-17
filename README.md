@@ -55,27 +55,10 @@ VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically [QEMU](https://www.qe
 
 ## Architecture
 
-               +------------------+
-               |   User's CLI     |
-               |  (Cobra-based)   |
-               +------------------+
-                        |
-                        |
-                        v
-               +------------------+
-               |  Backend Server  |
-               |   (Gorilla Mux)  |
-               +------------------+
-                        |
-                        |
-                        v
-               +------------------+
-               |   Type-2         |
-               |   Hypervisor     |
-               |   (e.g., QEMU)   |
-               +------------------+
+![image](https://github.com/mssandeepkamath/vm-iaas-wizard/assets/90695071/4488ad60-773a-4d2b-9435-cd264d03572b)
 
-- The "User's CLI" represents the command-line interface that users interact with to manage virtual machines.
+
+- The "CLI Client" represents the command-line interface that users interact with to manage virtual machines.
 
 - The "Backend Server (Gorilla Mux)" is the server component that handles incoming requests from the CLI and communicates with the Type-2 Hypervisor.
 
