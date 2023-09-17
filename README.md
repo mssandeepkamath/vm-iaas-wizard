@@ -5,8 +5,8 @@ VM-IaaS-Wizard is a versatile Infrastructure as a Service (IaaS) platform, built
 ## Table of Contents
 
 - [Overview](#overview)
-- [Key Features](#key-features)
 - [Architecture](#architecture)
+- [Key Features](#key-features)
 - [Contributing](#contributing)
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
@@ -18,6 +18,16 @@ VM-IaaS-Wizard is a versatile IaaS solution, written in Go, that caters to virtu
 
 - **Flexibility**: Designed in Go to work with various virtualization technologies and platforms.
 - **Simplicity**: Provides an intuitive CLI, built with Go, for virtual machine management.
+
+## Architecture
+
+![Untitled-2023-09-17-1208](https://github.com/mssandeepkamath/vm-iaas-wizard/assets/90695071/9c6212b8-6d1a-41c0-8fa9-99ef23037136)
+
+- The "CLI Client" represents the command-line interface that users interact with to manage virtual machines.
+
+- The "Backend Server (Gorilla Mux)" is the server component that handles incoming requests from the CLI and communicates with the Type-2 Hypervisor.
+
+- The "Type-2 Hypervisor (e.g., QEMU)" is responsible for creating, managing, and executing virtual machines.
 
 ## Key Features
 
@@ -52,16 +62,6 @@ VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically QEMU, to efficiently 
 - QEMU allows users to take snapshots of virtual machine states and create backups, enhancing data safety and management.
 
 VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically [QEMU](https://www.qemu.org/), to efficiently execute virtual machines. QEMU is a powerful open-source emulator and virtualization tool known for its platform compatibility, performance, snapshot capabilities, and versatility.
-
-## Architecture
-
-![Untitled-2023-09-17-1208](https://github.com/mssandeepkamath/vm-iaas-wizard/assets/90695071/9c6212b8-6d1a-41c0-8fa9-99ef23037136)
-
-- The "CLI Client" represents the command-line interface that users interact with to manage virtual machines.
-
-- The "Backend Server (Gorilla Mux)" is the server component that handles incoming requests from the CLI and communicates with the Type-2 Hypervisor.
-
-- The "Type-2 Hypervisor (e.g., QEMU)" is responsible for creating, managing, and executing virtual machines.
 
 ## Contributing
 
