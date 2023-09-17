@@ -1,6 +1,6 @@
-# Minimal-IaaS-Manager
+# VM-IaaS-Wizard
 
-Minimal-IaaS-Manager is a versatile Infrastructure as a Service (IaaS) platform, built using Go (Golang), designed to empower users to create, manage, and interact with virtual machines across different platforms. This platform provides a command-line interface (CLI) for streamlined virtual machine management.
+VM-IaaS-Wizard is a versatile Infrastructure as a Service (IaaS) platform, built using Go (Golang), designed to empower users to create, manage, and interact with virtual machines across different platforms. This platform provides a command-line interface (CLI) for streamlined virtual machine management.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Minimal-IaaS-Manager is a versatile Infrastructure as a Service (IaaS) platform,
 
 ## Overview
 
-Minimal-IaaS-Manager is a versatile IaaS solution, written in Go, that caters to virtual machine management across a wide range of platforms. It offers a user-friendly CLI client that connects to a back-end server, allowing users to interact with virtual machines seamlessly.
+VM-IaaS-Wizard is a versatile IaaS solution, written in Go, that caters to virtual machine management across a wide range of platforms. It offers a user-friendly CLI client that connects to a back-end server, allowing users to interact with virtual machines seamlessly.
 
 - **Flexibility**: Designed in Go to work with various virtualization technologies and platforms.
 - **Simplicity**: Provides an intuitive CLI, built with Go, for virtual machine management.
@@ -23,7 +23,7 @@ Minimal-IaaS-Manager is a versatile IaaS solution, written in Go, that caters to
 
 ### 1. CLI Client
 
-The heart of Minimal-IaaS-Manager is its powerful CLI client, built with Go, which simplifies virtual machine management, making it accessible to both novice and experienced users. With the CLI, you can:
+The heart of VM-IaaS-Wizard is its powerful CLI client, built with Go, which simplifies virtual machine management, making it accessible to both novice and experienced users. With the CLI, you can:
 
 - Create new virtual machines with custom specifications.
 - Start and stop existing virtual machines with ease.
@@ -32,7 +32,7 @@ The heart of Minimal-IaaS-Manager is its powerful CLI client, built with Go, whi
 - Configure basic networking for communication between virtual machines and the host system.
 - Receive informative error messages that guide you through potential issues for a smooth experience.
 
-The command-line interface (CLI) of Minimal-IaaS-Manager is developed using [Cobra](https://github.com/spf13/cobra), a popular library for building command-line applications in Go. Cobra provides a robust framework for creating intuitive and feature-rich CLI commands, making it easier for users to interact with virtual machines.
+The command-line interface (CLI) of VM-IaaS-Wizard is developed using [Cobra](https://github.com/spf13/cobra), a popular library for building command-line applications in Go. Cobra provides a robust framework for creating intuitive and feature-rich CLI commands, making it easier for users to interact with virtual machines.
 
 ### 2. Backend Server
 
@@ -46,12 +46,12 @@ The backend server of Minimal-IaaS-Manager is built using [Gorilla Mux](https://
 
 ### 3. Type-2 Hypervisor Integration
 
-Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically QEMU, to efficiently execute virtual machines. Hypervisor:
+VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically QEMU, to efficiently execute virtual machines. Hypervisor:
 
 - QEMU supports a wide range of host and guest operating systems, making it suitable for diverse virtualization scenarios.
 - QEMU allows users to take snapshots of virtual machine states and create backups, enhancing data safety and management.
 
-Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically [QEMU](https://www.qemu.org/), to efficiently execute virtual machines. QEMU is a powerful open-source emulator and virtualization tool known for its platform compatibility, performance, snapshot capabilities, and versatility.
+VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically [QEMU](https://www.qemu.org/), to efficiently execute virtual machines. QEMU is a powerful open-source emulator and virtualization tool known for its platform compatibility, performance, snapshot capabilities, and versatility.
 
 ## Architecture
 
