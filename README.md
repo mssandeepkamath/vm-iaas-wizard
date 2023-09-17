@@ -46,7 +46,7 @@ The backend server of Minimal-IaaS-Manager is built using [Gorilla Mux](https://
 
 ### 3. Type-2 Hypervisor Integration
 
-Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically QEMU, to efficiently execute virtual machines. QEMU is a powerful open-source emulator and virtualization tool that provides:
+Minimal-IaaS-Manager leverages a Type-2 hypervisor, specifically QEMU, to efficiently execute virtual machines. Hypervisor:
 
 - QEMU supports a wide range of host and guest operating systems, making it suitable for diverse virtualization scenarios.
 - QEMU allows users to take snapshots of virtual machine states and create backups, enhancing data safety and management.
