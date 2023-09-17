@@ -55,9 +55,7 @@ VM-IaaS-Wizard leverages a Type-2 hypervisor, specifically [QEMU](https://www.qe
 
 ## Architecture
 
-![image](https://github.com/mssandeepkamath/vm-iaas-wizard/assets/90695071/e13c764f-198f-4347-8367-53e322a7709d)
-
-
+![Untitled-2023-09-17-1208](https://github.com/mssandeepkamath/vm-iaas-wizard/assets/90695071/9c6212b8-6d1a-41c0-8fa9-99ef23037136)
 
 - The "CLI Client" represents the command-line interface that users interact with to manage virtual machines.
 
