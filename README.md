@@ -1,5 +1,7 @@
 # VM-IaaS-Wizard
 
+⚠️ **Please Note: Not yet started working on this project.**
+
 VM-IaaS-Wizard is a versatile Infrastructure as a Service (IaaS) platform, built using Go (Golang), designed to empower users to create, manage, and interact with virtual machines across different platforms. This platform provides a command-line interface (CLI) for streamlined virtual machine management.
 
 ## Table of Contents
